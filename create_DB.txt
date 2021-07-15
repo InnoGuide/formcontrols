@@ -1,0 +1,17 @@
+CREATE DATABASE mydb;
+
+USE mydb;
+
+CREATE TABLE `tbl_formcontrols` (
+	`ID` INT,
+	`input` VARCHAR(255),
+	`textarea` TEXT,
+	`select` INT,
+	`checkbox1` BOOLEAN,
+	`checkbox2` BOOLEAN,
+	`radio` int,
+	`date` DATE,
+	`color` CHAR(7),
+	`password` VARCHAR(50),
+	`email` VARCHAR(50)
+)
